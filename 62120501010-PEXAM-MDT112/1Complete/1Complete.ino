@@ -1,8 +1,6 @@
-int buzzer = 8
-
 void setup() {
-    pinMode(buzzer,OUTPUT);
-    tone(buzzer,300,500);
+    pinMode(8,OUTPUT);
+    tone(8,300,500);
 }
 void loop() {
     
